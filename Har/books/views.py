@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render # ete ches ogtagorcum jnji faylic mi tox
 from rest_framework import viewsets
 
 from books.models import Service

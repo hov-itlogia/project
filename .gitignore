@@ -1,4 +1,7 @@
+# ashxati ignore anes menak en fayler@ voronq patkanumen qez ev/kam qo patasxanatvutyan taken(orinak testavoroxi filer@ mi ara ignore)
+
 # Byte-compiled / optimized / DLL files
+# pordzeles ignore anes bayc meka haytnvela github_um, pordzi haskanas inchi u pordzi uxxes
 __pycache__/
 *.py[cod]
 *$py.class
@@ -58,7 +61,8 @@ cover/
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
+# pordzeles ignore anes DB_n(inch@ chisht practikaya) bayc meka haytnvela github_um, pordzi haskanas inchi u pordzi uxxes
+db.sqlite3          
 db.sqlite3-journal
 
 # Flask stuff:

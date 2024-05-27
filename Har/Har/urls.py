@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 
-from books.views import *
+from books.views import * # 90% depqerum sa sxal import anelu dzeva, ashxati chanes
 
 router = routers.SimpleRouter()
 router.register(r'service', ServiceViewSet)

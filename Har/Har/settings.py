@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-4t5x@5)g69*lt5x_6ih%c3fy!gk#)36ee@ub4rihcjkz^60$e8'
+SECRET_KEY = 'django-insecure-4t5x@5)g69*lt5x_6ih%c3fy!gk#)36ee@ub4rihcjkz^60$e8' # sa zgayun informaciaya u chi kareli bac pahel
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -35,7 +35,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # own (@st is avelia readable_a)
     'books.apps.BooksConfig',
+    # third-party
     'rest_framework',
 ]
 
@@ -74,7 +76,7 @@ WSGI_APPLICATION = 'Har.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.sqlite3', # productionum vochmek "sqlite" chi ogtagorcum, pordzi "postgres"_ov poxarines
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
